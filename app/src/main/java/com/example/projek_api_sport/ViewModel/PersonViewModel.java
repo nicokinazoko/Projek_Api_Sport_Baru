@@ -43,7 +43,6 @@ public class PersonViewModel extends ViewModel {
 
             @Override
             public void onFailure(Call<TeamSpainDiscoverResponse> call, Throwable t) {
-                t.getMessage();
                 Log.e("Error", t.getMessage());
             }
         });
